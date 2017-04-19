@@ -20,7 +20,7 @@ We should make a graph to visualize some of this data.
 
 ### Graphing by Species
 
-First, make a graph of **petal width** by **species**. 
+First, make a graph of **petal width** by **species*. 
 ```{r}
 ggplot(iris, aes(Species, Petal.Width, fill = Species)) + 
   geom_boxplot()
