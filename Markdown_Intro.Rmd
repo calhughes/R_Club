@@ -2,7 +2,9 @@
 title: "Markdown Introduction"
 author: "CB"
 date: "Wednesday, April 19, 2017"
-output: html_document
+output:
+  html_document:
+    keep_md: yes
 ---
 
 ```{r, include = FALSE}
