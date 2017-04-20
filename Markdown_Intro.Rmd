@@ -20,7 +20,7 @@ summary(iris)
 
 We should make a graph to visualize some of these data.
 
-### Graphing by Species
+### Graph by Species
 
 First, make a graph of **petal width** by **species*. 
 ```{r}
