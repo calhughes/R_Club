@@ -18,9 +18,9 @@ Let's check out the iris dataset using `summary`.
 summary(iris)
 ```
 
-We should make a graph to visualize some of this data.
+We should make a graph to visualize some of these data.
 
-### Graphing by Species
+### Graph by Species
 
 First, make a graph of **petal width** by **species*. 
 ```{r}
@@ -37,5 +37,5 @@ ggplot(iris, aes(Species, Petal.Width, fill = Species)) +
   theme(axis.text = element_text(size = 12),
         axis.title = element_text(size = 14, face = "bold"),
         legend.text = element_text(size = 12),
-        plot.title = element_text(size = 16)
+        plot.title = element_text(size = 16))
 ```
